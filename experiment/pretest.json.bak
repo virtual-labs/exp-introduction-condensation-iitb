@@ -1,20 +1,21 @@
 [
-    {
-       "question": "Sample Question",
+
+   {
+       "question": "The average heat transfer coefficient over vertical plate is given by",
        "qid": 1,
-       "option_a": "Option 1",
-       "option_b": "Option 2",
-       "option_c": "Option 3",
-       "option_d": "Option 4",
-       "correct_option": "a"
-    },
-    {
-       "question": "Sample Question",
+       "option_a": "$$ h_{av} = 0.943\\left(\\frac{(T_{sat} + T_w)μL}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",
+       "option_b": "$$ h_{av} = 0.943\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} + T_w)μL}\\right)^{1/4} $$",
+       "option_c": "$$ h_{av} = 0.943\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} - T_w)μL}\\right)^{1/4} $$",
+       "option_d": "$$ h_{av} = 0.943\\left(\\frac{(T_{sat} - T_w)μL}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",
+       "correct_option": "c"
+   },
+   {
+       "question": "The conductive resistance of sphere is given by",
        "qid": 2,
-       "option_a": "Option 1",
-       "option_b": "Option 2",
-       "option_c": "Option 3",
-       "option_d": "Option 4",
+       "option_a": "$$ h_{av} = 0.725\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} - T_w)μDn}\\right)^{1/4} $$",
+       "option_b": "$$ h_{av} = 0.725\\left(\\frac{(T_{sat} + T_w)μDn}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",
+       "option_c": "$$ h_{av} = 0.725\\left(\\frac{(T_{sat} - T_w)μDn}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",  
+       "option_d": "$$ h_{av} = 0.725\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} + T_w)μDn}\\right)^{1/4} $$",
        "correct_option": "a"
-    }
- ]
+   }
+]

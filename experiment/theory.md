@@ -96,10 +96,10 @@
 
   <p>Let:</p>
   <ul class="var-list">
-    <li>$$ T_w $$ &nbsp;— Temperature of the plate</li>
-    <li>$T_{sat}$ — Temperature at the interface between film and vapor</li>
-    <li>$V$ &nbsp;&nbsp;— Velocity of elemental volume in z direction</li>
-    <li>$\delta$ &nbsp;— Film thickness at distance Z from the top edge</li>
+    <li><span>$$ T_w $$ </span> &nbsp;— Temperature of the plate</li>
+    <li><span>$$ T_{sat} $$ </span> — Temperature at the interface between film and vapor</li>
+    <li><span>$$ V $$ </span> &nbsp;&nbsp;— Velocity of elemental volume in z direction</li>
+    <li><span> $$\delta$$ </span> &nbsp;— Film thickness at distance Z from the top edge</li>
   </ul>
 
   <p>Fig. 10.3 shows the shear and gravitational forces acting on differential element.</p>
@@ -125,8 +125,8 @@
   <p>Boundary conditions are:</p>
 
   <div class="bc-row">
-    <span>(i) &nbsp; at $x = 0,\ V = 0$</span>
-    <span>(ii) &nbsp; at $x = \delta,\ \dfrac{dV}{dx} = 0$</span>
+    <span>(i) &nbsp; at <span> $x = 0,\ V = 0$ </span></span>
+    <span>(ii) &nbsp; at <span> $x = \delta,\ \dfrac{dV}{dx} = 0$ </span></span>
   </div>
 
   <p>From boundary condition (i), and equation (3), we get,</p>
@@ -144,15 +144,15 @@
 
   <p>
     The mass flow rate of liquid through the section at distance Z can be obtained by
-    integrating $(\dot{m})$ over the film thickness $\delta$. Integrating we get,
+    integrating <span> $(\dot{m})$ </span> over the film thickness <span> $\delta$. </span> Integrating we get,
   </p>
   <div class="eq-block">$$\dot{m} = \frac{\rho^2 g}{\mu} \int_0^{\delta} \left( x\delta - \frac{x^2}{2} \right) dx = \frac{\rho^2 g}{\mu} \left( \frac{\delta x^2}{2} - \frac{x^3}{6} \right)_0^{\delta}$$</div>
   <div class="eq-block">$$\therefore \quad \dot{m} = \frac{\rho^2 \, g \, \delta^3}{3\mu} \tag{10.2}$$</div>
 
   <p>
     The rate of condensation (rate of change of mass) at this section is
-    $\dfrac{d\dot{m}}{d\delta}$. It is obtained by differentiating the equation 10.2
-    obtained for mass flow rate w.r.t. $\delta$.
+    <span> $\dfrac{d\dot{m}}{d\delta}$ </span>. It is obtained by differentiating the equation 10.2
+    obtained for mass flow rate w.r.t. <span> $\delta$ </span>.
   </p>
   <div class="eq-block">$$\frac{d\dot{m}}{d\delta} = \frac{\rho^2 \, g \, \delta^2}{\mu}$$</div>
   <div class="eq-block">$$\therefore \quad d\dot{m} = \frac{\rho^2 \, g \, \delta^2}{\mu} \, d\delta \tag{4}$$</div>
@@ -167,14 +167,14 @@
     From energy balance diagram at the interface between liquid and vapor, we can write,
   </p>
   <p>
-    Rate of heat released due to condensation of mass $d\dot{m}$ = Rate of heat
+    Rate of heat released due to condensation of mass <span> $d\dot{m}$ </span> = Rate of heat
     conducted through the film
   </p>
 
   <div class="eq-block">$$\therefore \quad q = \lambda \times d\dot{m} = \frac{KA}{b}(T_1 - T_2)$$</div>
   <div class="eq-block">$$\therefore \quad \lambda \, d\dot{m} = \frac{K\,(dz \times 1)\,(T_{sat} - T_w)}{\delta} \tag{5}$$</div>
 
-  <p>Substituting value of $d\dot{m}$ from equation (4), we get,</p>
+  <p>Substituting value of <span> $d\dot{m}$ </span> from equation (4), we get,</p>
   <div class="eq-block">$$\therefore \quad \frac{\lambda \, \rho^2 \, g \, \delta^2}{\mu} \, d\delta = \frac{K\,(T_{sat} - T_w)\,dz}{\delta}$$</div>
 
   <p>Separating the variables, we get,</p>
@@ -193,12 +193,12 @@
   <div class="eq-block">$$\therefore \quad \frac{K \times (dz \times 1)(T_{sat} - T_w)}{\delta} = h_z\,(dz \times 1)\,(T_{sat} - T_w)$$</div>
   <div class="eq-block">$$\therefore \quad h_z = \frac{K}{\delta}$$</div>
 
-  <p>Where $h_z$ is local heat transfer coefficient.</p>
+  <p>Where <span> $ h_z $ </span> is local heat transfer coefficient.</p>
   <p>Substituting in equation (10.3), we get,</p>
   <div class="eq-block">$$h_z = \left( \frac{\lambda \, \rho^2 \, g \, K^3}{4\,(T_{sat} - T_w)\,\mu\,Z} \right)^{1/4} \tag{10.4}$$</div>
 
   <p>
-    Let $h_{av}$ be the heat transfer coefficient over entire length of the plate.
+    Let <span> $h_{av}$ </span> be the heat transfer coefficient over entire length of the plate.
     We can write,
   </p>
   <div class="eq-block">$$h_{av} = \frac{1}{L} \int_0^L h_z \, dz$$</div>
@@ -208,7 +208,7 @@
   <div class="eq-block">$$\therefore \quad h_{av} = \frac{4}{3} \left( \frac{\lambda \, \rho^2 \, g \, K^3}{4\,(T_{sat} - T_w)\,\mu L} \right)^{1/4} \tag{10.5}$$</div>
 
   <p>
-    If $h_L$ is heat transfer coefficient at $z = L$, we can write from equation
+    If <span> $h_L$ </span> is heat transfer coefficient at <span> $z = L$ </span>, we can write from equation
     (10.4) and (10.5):
   </p>
   <div class="eq-block">$$h_{av} = \frac{4}{3}\, h_L \tag{10.6}$$</div>
@@ -228,7 +228,7 @@
   </p>
   <div class="eq-block">$$h = 0.725 \left( \frac{\lambda \, \rho^2 \, g \, K^3}{(T_{sat} - T_w)\,\mu D n} \right)^{1/4} \tag{10.8}$$</div>
 
-  <p>where &nbsp; $n$ — Number of tubes in a horizontal tube bank.</p>
+  <p>where &nbsp;  n — Number of tubes in a horizontal tube bank.</p>
 
   <p>
     This formula is also applicable when condensation takes place on inner surface of
@@ -249,7 +249,7 @@
 
   <p>
     Hence the correlation is obtained by substituting
-    $[\lambda + C_p\,(T_{sup} - T_{sat})]$ for $\lambda$ in eqn. (10.7):
+    <span> $[\lambda + C_p\,(T_{sup} - T_{sat})]$ </span> for <span> $\lambda$ </span> in eqn. (10.7):
   </p>
   <div class="eq-block">$$h_{av} = 0.943 \left( \frac{[\lambda + C_p\,(T_{sup} - T_{sat})]\,\rho^2 g\,K^3}{(T_{sat} - T_w)\,\mu\,L} \right)^{1/4} \tag{10.9}$$</div>
 
@@ -264,14 +264,14 @@
   </p>
   <div class="eq-block">$$h_{av} = 0.943 \left( \frac{\lambda \, \rho^2 \, g \, K^3 \cos\alpha}{(T_{sat} - T_w)\,\mu L} \right)^{1/4} \tag{10.10}$$</div>
 
-  <p>Where $\alpha$ is the angle made by the plate with vertical plane.</p>
+  <p>Where <span> $\alpha$ </span> is the angle made by the plate with vertical plane.</p>
 
   <div class="note">
     <strong>Note:</strong> The accuracy of all the above correlation increases if the
-    term in the numerator $\rho^2$ is replaced by the term $\rho(\rho - \rho_v)$, where
+    term in the numerator <span> $\rho^2$ </span> is replaced by the term <span> $\rho(\rho - \rho_v)$ </span>, where
     <ul>
-      <li>$\rho$ &nbsp;— Density of the saturated liquid</li>
-      <li>$\rho_v$ — Density of the saturated vapor</li>
+      <li><span> $\rho$ </span> &nbsp;— Density of the saturated liquid</li>
+      <li> <span> $\rho_v$ </span> — Density of the saturated vapor</li>
     </ul>
   </div>
 

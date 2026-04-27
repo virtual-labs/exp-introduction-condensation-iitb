@@ -28,7 +28,7 @@
   </p>
 
   <div class="fig-wrap center">
-    <img src="./images/th1.png" style="width: 520px;" alt="Fig 10.1 : Filmwise and Dropwise Condensation">
+    <img src="th1.png" style="width: 520px;" alt="Fig 10.1 : Filmwise and Dropwise Condensation">
     <span class="fig-caption">Fig 10.1 : Filmwise and Dropwise Condensation</span>
   </div>
 
@@ -83,11 +83,11 @@
   <!-- Fig 10.2 and 10.3 side by side -->
   <div class="fig-row">
     <div class="fig-item">
-      <img src="/images/th2.png" style="width: 340px;" alt="Fig 10.2">
+      <img src="th2.png" style="width: 340px;" alt="Fig 10.2">
       <span class="fig-caption">Fig. 10.2 : Film of condensate on a vertical plate</span>
     </div>
     <div class="fig-item">
-      <img src="/images/th3.png" style="width: 320px;" alt="Fig 10.3">
+      <img src="th3.png" style="width: 320px;" alt="Fig 10.3">
       <span class="fig-caption">Fig. 10.3 : Force equilibrium of the differential element</span>
     </div>
   </div>
@@ -159,7 +159,7 @@
 
   <!-- Fig 10.4 -->
   <div class="fig-wrap center">
-    <img src="/images/th4.png" style="width: 360px;" alt="Fig 10.4 : Energy balance along the strip">
+    <img src="th4.png" style="width: 360px;" alt="Fig 10.4 : Energy balance along the strip">
     <span class="fig-caption">Fig. 10.4 : Energy balance along the strip</span>
   </div>
 

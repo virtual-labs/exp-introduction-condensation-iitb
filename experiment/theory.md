@@ -96,7 +96,7 @@
 
   <p>Let:</p>
   <ul class="var-list">
-    <li><span>$$ T_w $$ </span> &nbsp;— Temperature of the plate</li>
+    <li><span style='display: inline-block;' >$$ T_w $$ </span> &nbsp;— Temperature of the plate</li>
     <li><span>$$ T_{sat} $$ </span> — Temperature at the interface between film and vapor</li>
     <li><span>$$ V $$ </span> &nbsp;&nbsp;— Velocity of elemental volume in z direction</li>
     <li><span> $$\delta$$ </span> &nbsp;— Film thickness at distance Z from the top edge</li>

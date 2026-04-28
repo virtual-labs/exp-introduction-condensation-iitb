@@ -139,12 +139,11 @@
   <div class="eq-block">$$V = \frac{\rho g}{\mu} \left( x\delta - \frac{x^2}{2} \right) \tag{10.1}$$</div>
 
   <p>The mass flow rate through the differential control volume is,</p>
-  <div class="eq-block">$$\dot{m} = \rho \times A \times V = \rho \times (dx \times 1) \times V = \rho \, dx \, V$$</div>
-  <div class="eq-block">$$\therefore \quad \dot{m} = \frac{\rho^2 g}{\mu} \left( x\delta - \frac{x^2}{2} \right) dx$$</div>
+  <div class="eq-block">$$d \dot{m} = \rho \times A \times V = \rho \times (dx \times 1) \times V = \rho \, dx \, V$$</div>
+  <div class="eq-block">$$\therefore \quad  d \dot{m} = \frac{\rho^2 g}{\mu} \left( x\delta - \frac{x^2}{2} \right) dx$$</div>
 
   <p>
-    The mass flow rate of liquid through the section at distance Z can be obtained by
-    integrating <span style='display: inline-block;'> $$(\dot{m})$$ </span> over the film thickness <span style='display: inline-block;'> $$\delta$$. </span> Integrating we get,
+    The mass flow rate of liquid through the section at distance Z can be obtained by integrating <span style='display: inline-block;'> $$(d \dot{m})$$ </span> over the film thickness <span  style='display: inline-block;'> $$\delta$$. </span> Integrating we get,
   </p>
   <div class="eq-block">$$\dot{m} = \frac{\rho^2 g}{\mu} \int_0^{\delta} \left( x\delta - \frac{x^2}{2} \right) dx = \frac{\rho^2 g}{\mu} \left( \frac{\delta x^2}{2} - \frac{x^3}{6} \right)_0^{\delta}$$</div>
   <div class="eq-block">$$\therefore \quad \dot{m} = \frac{\rho^2 \, g \, \delta^3}{3\mu} \tag{10.2}$$</div>

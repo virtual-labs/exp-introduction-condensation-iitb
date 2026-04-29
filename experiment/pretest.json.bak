@@ -3,19 +3,19 @@
    {
        "question": "The average heat transfer coefficient over vertical plate is given by",
        "qid": 1,
-       "option_a": "$$ h_{av} = 0.943\\left(\\frac{(T_{sat} + T_w)μL}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",
-       "option_b": "$$ h_{av} = 0.943\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} + T_w)μL}\\right)^{1/4} $$",
-       "option_c": "$$ h_{av} = 0.943\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} - T_w)μL}\\right)^{1/4} $$",
-       "option_d": "$$ h_{av} = 0.943\\left(\\frac{(T_{sat} - T_w)μL}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",
+       "option_a": "<span style='display:inline-block;'>$$ h_{av} = 0.943\\left(\\frac{(T_{sat} + T_w)μL}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$</span>",
+       "option_b": "<span style='display:inline-block;'>$$ h_{av} = 0.943\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} + T_w)μL}\\right)^{1/4} $$</span>",
+       "option_c": "<span style='display:inline-block;'>$$ h_{av} = 0.943\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} - T_w)μL}\\right)^{1/4} $$</span>",
+       "option_d": "<span style='display:inline-block;'>$$ h_{av} = 0.943\\left(\\frac{(T_{sat} - T_w)μL}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$</span>",
        "correct_option": "c"
    },
    {
        "question": "The average heat transfer coefficient over horizontal tubes is given by",
        "qid": 2,
-       "option_a": "$$ h_{av} = 0.725\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} - T_w)μDn}\\right)^{1/4} $$",
-       "option_b": "$$ h_{av} = 0.725\\left(\\frac{(T_{sat} + T_w)μDn}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",
-       "option_c": "$$ h_{av} = 0.725\\left(\\frac{(T_{sat} - T_w)μDn}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$",  
-       "option_d": "$$ h_{av} = 0.725\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} + T_w)μDn}\\right)^{1/4} $$",
+       "option_a": "<span style='display:inline-block;'>$$ h_{av} = 0.725\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} - T_w)μDn}\\right)^{1/4} $$</span>",
+       "option_b": "<span style='display:inline-block;'>$$ h_{av} = 0.725\\left(\\frac{(T_{sat} + T_w)μDn}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$</span>",
+       "option_c": "<span style='display:inline-block;'>$$ h_{av} = 0.725\\left(\\frac{(T_{sat} - T_w)μDn}{h_{fg}\\rho^2gK^3}\\right)^{1/4} $$</span>",  
+       "option_d": "<span style='display:inline-block;'>$$ h_{av} = 0.725\\left(\\frac{h_{fg}\\rho^2gK^3}{(T_{sat} + T_w)μDn}\\right)^{1/4} $$</span>",
        "correct_option": "a"
    }
 ]

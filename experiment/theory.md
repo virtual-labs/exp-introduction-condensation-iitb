@@ -28,7 +28,7 @@
   </p>
 
   <div class="fig-wrap center">
-    <img src="./images/theory_1.png" style="width: 520px;" alt="Fig 10.1 : Filmwise and Dropwise Condensation">
+    <p style="text-align: center;"><img src="./images/theory_1.png" style="width: 340px;" alt="Fig 10.1 : Filmwise and Dropwise Condensation"></p>
   </div>
 
   <!-- ── 2. Dropwise ── -->
@@ -80,8 +80,8 @@
   </p>
 
   <!-- Fig 10.2 and 10.3 side by side -->
-  <<div class="fig-wrap center">
-    <img src="./images/theory_2.png" style="width: 520px;" alt="Fig 10.2 : Vertical plate and differential element">
+  <div class="fig-wrap center">
+    <p style="text-align: center;"><img src="./images/theory_2.png" style="width: 520px;" alt="Fig 10.2 : Vertical plate and differential element"></p>
   </div>
 
   <p>Let the plate be having unit width.</p>
@@ -150,7 +150,7 @@
 
   <!-- Fig 10.4 -->
   <div class="fig-wrap center">
-    <img src="./images/theory_3.png" style="width: 520px;" alt="Fig 10.3 : Energy balance">
+    <p style="text-align: center;"><img src="./images/theory_3.png" style="width: 340px;" alt="Fig 10.3 : Energy balance"></p>
   </div>
 
   <p>
@@ -218,7 +218,7 @@
   </p>
   <div class="eq-block">$$h = 0.725 \left( \frac{\lambda \, \rho^2 \, g \, K^3}{(T_{sat} - T_w)\,\mu D n} \right)^{1/4} \tag{10.8}$$</div>
 
-  <p>where &nbsp;  n — Number of tubes in a horizontal tube bank.</p>
+  <p>where &nbsp;  n - Number of tubes in a horizontal tube bank.</p>
 
   <p>
     This formula is also applicable when condensation takes place on inner surface of

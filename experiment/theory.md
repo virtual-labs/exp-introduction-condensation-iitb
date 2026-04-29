@@ -1,7 +1,7 @@
 <div class="theory-wrap">
 
   <!-- ═══════════════════════════════════════════════════════ TITLE -->
-  <h1>Condensation</h1>
+  <h1 style="text-align: center">Condensation</h1>
 
   <p>
     When phase change from vapor to liquid occurs, by giving out the latent heat to the
@@ -12,12 +12,12 @@
   <hr>
 
   <!-- ═══════════════════════════════════════════════════ TYPES -->
-  <h2>Types of Condensation</h2>
+  <h3>Types of Condensation</h3>
 
   <p>Condensation of vapor may take place in two different ways.</p>
 
   <!-- ── 1. Filmwise ── -->
-  <h3>1. Filmwise Condensation</h3>
+  <h4>1. Filmwise Condensation</h4>
 
   <p>
     In this type, the condensate forms a film over the surface. The surface gets wet.
@@ -33,7 +33,7 @@
   </div>
 
   <!-- ── 2. Dropwise ── -->
-  <h3>2. Dropwise Condensation</h3>
+  <h4>2. Dropwise Condensation</h4>
 
   <p>
     In this type, the condensate forms droplets on the surface. The droplets gets
@@ -62,7 +62,7 @@
   <hr>
 
   <!-- ═════════════════════════════════════════ NUSSELT THEORY -->
-  <h2>Film Condensation on Vertical Plate / Nusselt's Theory of Film Condensation</h2>
+  <h3>Film Condensation on Vertical Plate / Nusselt's Theory of Film Condensation</h3>
 
   <p>While analyzing the case of condensation over a plate, following assumptions are made:</p>
 
@@ -96,10 +96,10 @@
 
   <p>Let:</p>
   <ul class="var-list">
-    <li><span style='display: inline-block;' >$$ T_w $$ </span> &nbsp;— Temperature of the plate</li>
-    <li><span style='display: inline-block;'>$$ T_{sat} $$ </span> — Temperature at the interface between film and vapor</li>
-    <li><span style='display: inline-block;'>$$ V $$ </span> &nbsp;&nbsp;— Velocity of elemental volume in z direction</li>
-    <li><span style='display: inline-block;'> $$\delta$$ </span> &nbsp;— Film thickness at distance Z from the top edge</li>
+    <li><span style='display: inline-block;' >$$ T_w $$ </span> - Temperature of the plate</li>
+    <li><span style='display: inline-block;'>$$ T_{sat} $$ </span> - Temperature at the interface between film and vapor</li>
+    <li><span style='display: inline-block;'>$$ V $$ </span> - Velocity of elemental volume in z direction</li>
+    <li><span style='display: inline-block;'> $$\delta$$ </span> - Film thickness at distance Z from the top edge</li>
   </ul>
 
   <p>Fig. 10.3 shows the shear and gravitational forces acting on differential element.</p>
@@ -143,7 +143,7 @@
   <div class="eq-block">$$\therefore \quad  d \dot{m} = \frac{\rho^2 g}{\mu} \left( x\delta - \frac{x^2}{2} \right) dx$$</div>
 
   <p>
-    The mass flow rate of liquid through the section at distance Z can be obtained by integrating <span style='display: inline-block;'> $$(d \dot{m})$$ </span> over the film thickness <span  style='display: inline-block;'> $$\delta$$. </span> Integrating we get,
+    The mass flow rate of liquid through the section at distance Z can be obtained by integrating <span style='display: inline-block;'> $$(d \dot{m})$$ </span> over the film thickness <span style='display: inline-block;'> $$\delta$$. </span> Integrating we get,
   </p>
   <div class="eq-block">$$\dot{m} = \frac{\rho^2 g}{\mu} \int_0^{\delta} \left( x\delta - \frac{x^2}{2} \right) dx = \frac{\rho^2 g}{\mu} \left( \frac{\delta x^2}{2} - \frac{x^3}{6} \right)_0^{\delta}$$</div>
   <div class="eq-block">$$\therefore \quad \dot{m} = \frac{\rho^2 \, g \, \delta^3}{3\mu} \tag{10.2}$$</div>
@@ -219,7 +219,7 @@
   <hr>
 
   <!-- ═══════════════════════════════════════ HORIZONTAL TUBES -->
-  <h2>Condensation on Horizontal Tubes</h2>
+  <h3>Condensation on Horizontal Tubes</h3>
 
   <p>
     Nusselt's correlation for the H.T. coefficient for condensation over a bank of
@@ -238,7 +238,7 @@
   <hr>
 
   <!-- ═══════════════════════════════════ SUPERHEATED VAPOR -->
-  <h2>Condensation of Super Heated Vapor</h2>
+  <h3>Condensation of Super Heated Vapor</h3>
 
   <p>
     When the vapor is super heated, the heat required to be extracted from it in order
@@ -255,7 +255,7 @@
   <hr>
 
   <!-- ═══════════════════════════════════ INCLINED PLATE -->
-  <h2>Condensation over Inclined Plate</h2>
+  <h3>Condensation over Inclined Plate</h3>
 
   <p>
     The equation (10.7) which is developed for the case of condensation over a vertical
@@ -269,8 +269,8 @@
     <strong>Note:</strong> The accuracy of all the above correlation increases if the
     term in the numerator <span style='display: inline-block;'> $$\rho^2$$ </span> is replaced by the term <span style='display: inline-block;'> $$\rho(\rho - \rho_v)$$ </span>, where
     <ul>
-      <li><span style='display: inline-block;'> $$\rho$$ </span> &nbsp;— Density of the saturated liquid</li>
-      <li> <span style='display: inline-block;'> $$\rho_v$$ </span> — Density of the saturated vapor</li>
+      <li><span style='display: inline-block;'> $$\rho$$ </span> - Density of the saturated liquid</li>
+      <li> <span style='display: inline-block;'> $$\rho_v$$ </span> - Density of the saturated vapor</li>
     </ul>
   </div>
 
